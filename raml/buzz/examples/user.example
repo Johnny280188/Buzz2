@@ -1,0 +1,15 @@
+{
+  "member_channels": [
+    {
+      "channel_name": "yankees",
+      "joined_date": "2017-07-17T22:17:20.744+0300"
+    }
+  ],
+  "created_date": "2017-07-17T22:17:20.744+0300",
+  "user_name": "joejoe",
+  "rank": "79",
+  "icon": "https://s3....",
+  "geo": "1234577,987654",
+  "age": "23",
+  "gender": "male"
+}

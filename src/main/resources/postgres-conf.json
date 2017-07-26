@@ -1,0 +1,10 @@
+{
+  "host" : "ec2-52-15-97-36.us-east-2.compute.amazonaws.com",
+  "port" : 5432,
+  "maxPoolSize" : 50,
+  "username" : "buzz01_demo",
+  "password" : "buzz01",
+  "database" : "postgres",
+  "charset"  : "UTF8",
+  "queryTimeout" : 10000
+}

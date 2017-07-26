@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "channel_name": {
+      "type": "string"
+    },
+    "created_date": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "members": {
+      "type": "integer"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "update_date": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "geo": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "private": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "owner",
+    "channel_name"
+  ]
+}

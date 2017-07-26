@@ -1,0 +1,25 @@
+{
+  "channel": "yankees",
+  "created_date": "2017-07-17T22:17:20.744+0300",
+  "question": "what's up",
+  "tags": [
+    "baseball",
+    "sports"
+  ],
+  "answers": [
+    {
+      "answer": "ok",
+      "count": 92
+    },
+    {
+      "answer": "fine",
+      "count": 100
+    },
+    {
+      "answer": "chillin",
+      "count": 12
+    }
+  ],
+  "owner": "joejoe",
+  "update_date": "2017-07-17T22:17:20.744+0300"
+}

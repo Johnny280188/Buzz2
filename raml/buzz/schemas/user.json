@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "member_channels": {
+            "items": {
+                "properties": {
+                    "channel_name": {
+                        "type": "string"
+                    },
+                    "joined_date": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "created_date": {
+            "type": "string"
+        },
+        "user_name": {
+            "type": "string"
+        },
+        "rank": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "geo": {
+            "type": "string"
+        },
+        "age": {
+            "type": "integer"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+	"required": [
+	   "user_name"
+	]
+}

@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "answers": {
+            "items": {
+                "properties": {
+                    "answer": {
+                        "type": "string"
+                    },
+                    "count": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "total_votes": {
+            "type": "integer"
+        },
+        "channel": {
+            "type": "string"
+        },
+        "created_date": {
+            "type": "string"
+        },
+        "owner": {
+            "type": "string"
+        },
+        "question": {
+            "type": "string"
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "update_date": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+	"required": [
+	   "owner",
+	   "channel"
+	]
+}
