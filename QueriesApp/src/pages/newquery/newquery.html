@@ -1,0 +1,44 @@
+<!--
+  Generated template for the NewqueryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>New Query</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Question</ion-label>
+            <ion-input type="text" [(ngModel)]="query.question"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Answer 1</ion-label>
+            <ion-input type="text" [(ngModel)]="query.answer1"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Answer 2</ion-label>
+            <ion-input type="text" [(ngModel)]="query.answer2"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Answer 3 (Optional)</ion-label>
+            <ion-input type="text" [(ngModel)]="query.answer3"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Tags</ion-label>
+            <ion-select [(ngModel)]="query.tags" multiple="true">
+                <ion-option value="sports">Sports</ion-option>
+                <ion-option value="traveling">Traveling</ion-option>
+                <ion-option value="food">Food</ion-option>
+            </ion-select>
+        </ion-item>
+    </ion-list>
+    <button ion-button block (click)="addQuery()">Add</button>
+</ion-content>
